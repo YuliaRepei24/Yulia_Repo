@@ -12,6 +12,7 @@ function checkProbabilityTheory(count) {
             oddCount++;
         }
     }
+    
 
     const totalCount = evenCount + oddCount;
     const evenPercentage = (evenCount / totalCount) * 100;
